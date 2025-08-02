@@ -38,7 +38,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
-        // Inicializar banco de dados e repositório
         database = AgroTrackDatabase.getDatabase(this)
         repository = AgroTrackRepository(
             tarefaDao = database.tarefaDao(),
@@ -73,10 +72,8 @@ enum class Screen {
 }
 @Composable
 fun AgroTrackApp(viewModelFactory: AgroTrackViewModelFactory) {
-    // Estado para controlar qual tela está sendo exibida
     var currentScreen by remember { mutableStateOf(Screen.TAREFAS) }
 
-    // ViewModels usando ViewModelProvider ao invés de viewModel()
     val tarefaViewModel = remember {
         ViewModelProvider(
             store = ViewModelStore(),
