@@ -11,12 +11,12 @@ import com.joaovitor.agrotrack.data.Converter
 import com.joaovitor.agrotrack.data.dao.RegistroAtividadeDao
 import com.joaovitor.agrotrack.data.dao.TarefaDao
 
-
 @Database(
     entities = [Tarefa::class, RegistroAtividade::class],
     version = 1,
     exportSchema = false
 )
+
 @TypeConverters(Converter::class)
 abstract class AgroTrackDatabase : RoomDatabase() {
     abstract fun tarefaDao(): TarefaDao

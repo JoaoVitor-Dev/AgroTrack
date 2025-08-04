@@ -13,6 +13,7 @@ data class Tarefa(
     val status: StatusTarefa,
     val dataCriacao: Long = System.currentTimeMillis()
 )
+
 enum class StatusTarefa {
     PENDENTE,
     EM_ANDAMENTO,
