@@ -2,11 +2,6 @@
 
 Aplicativo Android nativo desenvolvido em Kotlin utilizando Jetpack Compose e Room Database.
 
-## Cenário
-
-A Data Agrin precisa de um sistema para operadores agrícolas monitorarem suas tarefas e
-atividades no campo, mesmo com conectividade limitada.
-
 ## Funcionalidades
 
 - Cadastro e listagem de tarefas agrícolas
