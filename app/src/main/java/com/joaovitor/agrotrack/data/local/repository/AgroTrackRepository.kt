@@ -26,4 +26,6 @@ class AgroTrackRepository(
     suspend fun insertRegistro(registro: RegistroAtividade) = registroDao.insertRegistro(registro)
     suspend fun updateRegistro(registro: RegistroAtividade) = registroDao.updateRegistro(registro)
     suspend fun deleteRegistro(registro: RegistroAtividade) = registroDao.deleteRegistro(registro)
+
+
 }
