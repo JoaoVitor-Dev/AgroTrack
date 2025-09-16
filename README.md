@@ -14,6 +14,8 @@ atividades no campo, mesmo com conectividade limitada.
 - Armazenamento local de dados com Room
 - Arquitetura MVVM com separação de responsabilidades
 
+<img src="https://github.com/JoaoVitor-Dev/AgroTrack/blob/master/screenshots/Home.png" width=260/><img src="https://github.com/JoaoVitor-Dev/AgroTrack/blob/master/screenshots/Home-menu.png" width=260/><img src="https://github.com/JoaoVitor-Dev/AgroTrack/blob/master/screenshots/New-task.png" width=260/><img src="https://github.com/JoaoVitor-Dev/AgroTrack/blob/master/screenshots/New-register.png" width=260/><img src="https://github.com/JoaoVitor-Dev/AgroTrack/blob/master/screenshots/Historic.png" width=260/>
+
 ## Requisitos para rodar o projeto
 
 Antes de rodar o projeto, certifique-se de que seu ambiente está corretamente configurado:
